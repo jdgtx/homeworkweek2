@@ -1,0 +1,46 @@
+@media all and (min-width: 1170px) {
+    #main-header #header-image{
+        position:relative;
+        height:100%;
+        background-image: url('img/man-1.jpg');
+    }
+    #header-title{
+        position:absolute;
+        top:500px;
+        left:10px;
+        text-align:left;
+        color:white;
+        font-size:3vh;
+    }    
+} 
+
+@media all and (max-width: 1170px) {
+    #main-header #header-image{
+        position:relative;
+        height:70%;
+        background-image: url('img/man-2.jpg');
+    }
+    #header-title{
+        position:absolute;
+        top:200px;
+        right:10px;
+        text-align:left;
+        color:white;
+        font-size:1.5vh;
+    }   
+} 
+
+@media all and (max-width: 992px) {
+    #header-title{
+        text-align:center;
+        width:100%;
+        color:black; 
+        position: unset;
+        padding:20px;
+    }
+    #main-header #header-image{
+        
+        height:50%;
+        background-image: url('img/man-1.jpg');
+}
+}

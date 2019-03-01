@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    text-transform:uppercase;
+   
+}
+
+#main-header{
+    height:130vh;
+    width:100%;
+}
+
+#main-header #header-image{
+    
+    background-position:center;
+    background-size:cover;
+    width:100%;
+    height:100%;
+}
